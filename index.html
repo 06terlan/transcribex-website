@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TranscribeX - Real-time Voice to Text</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #2A2A2C;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1C1C1E, #1C1C1E);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #ccc;
+    }
+
+    .cta {
+      margin-top: 24px;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(to right, #4a90e2, #9013fe);
+      border-radius: 12px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+    .cta a:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 40px 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .feature {
+      margin-bottom: 32px;
+    }
+
+    .feature h3 {
+      font-size: 20px;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .feature p {
+      font-size: 15px;
+      color: #bbb;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      padding: 40px 16px 20px;
+      background-color: #1C1C1E;
+    }
+
+    footer a {
+      color: #aaa;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .cta a {
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="assets/icon.png" alt="TranscribeX Logo" class="logo" />
+    <h1>TranscribeX</h1>
+    <h2>Real-time Voice-to-Text with AI-Powered Summaries</h2>
+    <div class="cta">
+      <a href="#features">Start Transcribing</a>
+    </div>
+  </header>
+
+  <section id="features">
+    <div class="feature">
+      <h3>🎙️ Real-Time Transcription</h3>
+      <p>Capture and transcribe voice as you speak using cutting-edge AI models via Deepgram.</p>
+    </div>
+
+    <div class="feature">
+      <h3>🧠 Smart Summaries</h3>
+      <p>Claude AI automatically extracts insights, highlights, and action items from your conversations.</p>
+    </div>
+
+    <div class="feature">
+      <h3>🔒 Secure and Private</h3>
+      <p>Your recordings are encrypted on-device and securely stored using Google Cloud Firestore.</p>
+    </div>
+
+    <div class="feature">
+      <h3>📱 Mobile First</h3>
+      <p>Built for iOS and Android using React Native. Coming soon to web!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by <a href="https://transcribex.ai">TranscribeX</a></p>
+    <p>Need help? <a href="mailto:support@transcribex.ai">support@transcribex.app</a></p>
+  </footer>
+
+</body>
+</html>
